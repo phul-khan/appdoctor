@@ -6,7 +6,7 @@ import RelatedDoctors from "../components/RelatedDoctors";
 
 function Appointment() {
   const { docId } = useParams();
-  const { doctors, currencySymbol } = useContext(AppContext);
+  const { doctors } = useContext(AppContext);
   const daysOfWeek = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 
   const [docInfo, setDocInfo] = useState(null);
@@ -117,8 +117,7 @@ function Appointment() {
             <p className="text-gray-600 font-medium mt-4">
               Appointmnet fee:{" "}
               <span className="text-gray-700">
-                {currencySymbol}
-                {docInfo.fees}
+                Rs {docInfo.fees}
               </span>
             </p>
           </div>
@@ -139,7 +138,8 @@ function Appointment() {
                   key={index}
                 >
                   <p>{item[0] && daysOfWeek[item[0].datetime.getDay()]}</p>
-                  <p>{item[0] && item[0].datetime.getDate()}</p>
+<p>{item[0] && item[0].datetime.getDate()}</p>
+
                 </div>
               ))}
           </div>
@@ -155,7 +155,6 @@ function Appointment() {
           {/* --Listing Related Doctors--- */}
           <RelatedDoctors docId={docId}  speciality={docInfo.speciality}/>
         </div>
-       
     )
   );
 }

@@ -23,15 +23,18 @@ import { assets } from '../assets/assets';
   </div>
 
   <div className='flex flex-col md:flex-row md-20'>
-    <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-blue-200 hover:text-while transition-all duration-300 text-gray-600 cursor-pointer'>
+  <div className="border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-red-400 hover:text-white transition-all duration-300 text-gray-600 cursor-pointer">
+
     <b>EFFIENCEY:</b>
     <p>Streamlined Appointment Scheduling That Fits Into Your BUsy LifeStyle</p>
     </div>
-      <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-blue-200 hover:text-while transition-all duration-300 text-gray-600 cursor-pointer'>
+    <div className="border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-red-400 hover:text-white transition-all duration-300 text-gray-600 cursor-pointer">
+
     <b>CONVIENCE:</b>
     <p>Access To A Network of Trusted HealthCare Professionals In  Your Area.</p>
 </div>
-    <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-blue-200 hover:text-while transition-all duration-300 text-gray-600 cursor-pointer'>
+<div className="border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-red-400 hover:text-white transition-all duration-300 text-gray-600 cursor-pointer">
+
     <b>PERSONALIZATION</b>
     <p>Tailored Recommendation And Reminders To Help you Stay On Top Of Your Health</p>
     </div>

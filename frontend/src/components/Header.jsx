@@ -19,12 +19,14 @@ function Header() {
             hassle-free.
           </p>
         </div>
-        <a href="#speciality" className="flex items-center gap-2 bg-white px-8 py-3 rounded-full text-red-600 text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300"
-        >
-          {" "}
-          Book Appointment{" "}
-          <img className="w-3" src={assets.arrow_icon} alt="" />{" "}
-        </a>
+        <a
+  href="#speciality"
+  className="flex items-center gap-2 bg-white px-6 py-3 rounded-full text-blue-600 text-sm font-medium shadow-md hover:scale-105 hover:shadow-lg transition-all duration-300 w-max"
+>
+  Book Appointment
+  <img className="w-4" src={assets.arrow_icon} alt="arrow" />
+</a>
+             
       </div>
       {/* ---right side-- */}
       <div className="md:w-1/2 relative">
